@@ -2,9 +2,9 @@ require("dotenv").config();
 var express = require("express");
 var exphbs = require("express-handlebars");
 var helpers = require("handlebars-helpers")();
-var bodyParser = require("body-parser");
-var cookieParser = require("cookie-parser");
-var customAuthMiddleware = require("./controllers/customAuthMiddleware");
+// var bodyParser = require("body-parser");
+// var cookieParser = require("cookie-parser");
+// var customAuthMiddleware = require("./controllers/customAuthMiddleware");
 
 var db = require("./models");
 
@@ -15,10 +15,10 @@ var PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static("public"));
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-app.use(cookieParser());
-app.use(customAuthMiddleware);
+// app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.json());
+// app.use(cookieParser());
+// app.use(customAuthMiddleware);
 
 // Handlebars
 app.engine(
