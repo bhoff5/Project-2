@@ -38,7 +38,7 @@ module.exports = function(app) {
       "http://api.nal.usda.gov/ndb/reports/?ndbno=" +
         ndbno +
         "&type=f&format=json&api_key=" +
-        apiKey,
+        "haaezbfxD14qfpXGVwF2Me4EE8iAMgQ6NH5fiqG0",
       function(error, response, body) {
         if (!error && response.statusCode == 200) {
           var json = JSON.parse(body);
