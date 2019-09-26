@@ -31,7 +31,7 @@ app.set("view engine", "handlebars");
 
 // Routes
 require("./controllers/itemController")(app);
-require("./controllers/userController")(app);
+// require("./controllers/userController")(app);
 require("./controllers/htmlRoutes")(app);
 
 var syncOptions = { force: false };
