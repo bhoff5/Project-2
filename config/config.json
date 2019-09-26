@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "@Nnie1960",
-    "database": "produce_db",
-    "host": "localhost",
+    "username": "e9evclw0suwajnw6",
+    "password": "dxu6ks0gk6wlqf8h",
+    "database": "tynia501nx5b7u7n",
+    "host": "i943okdfa47xqzpy.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
